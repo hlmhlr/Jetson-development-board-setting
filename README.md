@@ -23,7 +23,9 @@ This is a step-by-step guide to configure the Jetson Xavier NX (JNX30D) developm
 ```$ cd ../downloaded_folder```
 7. Install it by typing: 
 ```$ sudo apt install ../sdkmanager_1.9.1-10844_amd64.deb```
+
 **Note:** Freeing up space on the system hard drive is strongly advised over using an external device. Up to 42GB of the memory was free in my case.
+
 8. Launch `NVIDIA sdk manager` from terminal window by typing `sdkmanager` and hit enter. A GUI will launch, requiring authentication. Input credentials, then go to the further steps.
 9. Install `Jetpack` for the Jetson Xavier NX development kit by completig the following sub-steps from GUI screen:
     
